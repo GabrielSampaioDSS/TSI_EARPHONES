@@ -1,50 +1,46 @@
 body {
-	background-color: #777;
+  background-color: #777;
+  box-sizing: border-box;
 }
 #container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #home {
-	margin: 0 20px 0 auto;
-}
-
-#non-fixed-header {
-	filter: opacity(0.7);
-	z-index: auto;
+  margin: 0 20px 0 auto;
 }
 
 .about-info {
-	display: flex;
-	flex-direction: column;
-	text-align: justify;
-	width: 60vw;
-	color: var(--header-color);
-	border-radius: 23px;
-	background: linear-gradient(225deg, #f4f6fd, #cdcfd4);
-	box-shadow: -8px 8px 0px #c6c8cd, 8px -8px 0px #ffffff;
-	margin-bottom: 50px;
-	animation: smooth-fade-in 2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  width: 60vw;
+  color: var(--header-color);
+  border-radius: 23px;
+  background: linear-gradient(225deg, #f4f6fd, #cdcfd4);
+  box-shadow: -8px 8px 0px #c6c8cd, 8px -8px 0px #ffffff;
+  margin: 0 auto 50px auto;
+  animation: smooth-fade-in 2s ease-in-out;
 }
 
 #first-box {
-	margin-top: 85px;
+  margin-top: 85px;
 }
 
 .about-info h2 {
-	font-family: "regular";
-	text-align: center;
+  font-family: "regular";
+  text-align: center;
 }
 
 .about-img {
-	border-radius: 15px;
+  border-radius: 15px;
 }
 
 .about-info p {
-	font-family: "regular";
-	font-size: large;
-	padding: 5px 10px;
+  font-family: "regular";
+  font-size: large;
+  padding: 5px 10px;
 }
