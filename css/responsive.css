@@ -1,34 +1,89 @@
 @media screen and (max-width: 600px) {
-  #hero {
-    height: 300px;
-  }
+	#hero {
+		height: 300px;
+	}
 
-  #slogan span {
-    font-size: 30px;
-  }
+	#slogan span {
+		font-size: 30px;
+	}
 
-  #hero-text p {
-    font-size: 24px;
-  }
+	#hero-text p {
+		font-size: 24px;
+	}
 
-  .marketing-black:hover .product,
-  .marketing-white:hover .product {
-    animation: none;
-  }
+	.marketing-black:hover .product,
+	.marketing-white:hover .product {
+		animation: none;
+	}
 
-  .white-title, .black-title {
-    font-size: 36px;
-    text-align: center;
-  }
+	.white-title,
+	.black-title {
+		font-size: 36px;
+		text-align: center;
+	}
 
-  .white-description, .black-description {
-    font-size: 24px;
-    text-align: center;
-  }
+	.white-description,
+	.black-description {
+		font-size: 24px;
+		text-align: center;
+	}
 
-  .product {
-    animation: none;
-    opacity: 1;
-    width: 80%;
-  }
+	.product {
+		animation: none;
+		opacity: 1;
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	#container {
+		width: 80vw;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#container {
+		width: 90vw;
+	}
+}
+
+@media screen and (max-width: 690px) {
+	.img-container {
+		width: 40%;
+	}
+
+	.img-container img {
+		height: 100px;
+		width: 150px;
+		margin: 15px;
+	}
+	.product-label {
+		font-size: 100%;
+	}
+	.product-paragraph {
+		font-size: medium;
+	}
+	.price {
+		font-size: 75%;
+	}
+	.buy-btn {
+		font-size: 75%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.product-description {
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 490px) {
+	.img-container {
+		justify-content: center;
+	}
+	.img-container img {
+		height: 75px;
+		width: 100px;
+		margin: 10px;
+	}
 }
